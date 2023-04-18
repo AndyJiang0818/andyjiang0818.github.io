@@ -408,7 +408,9 @@ nav ul li {
 @media screen and (max-width: 720px) {
   nav {
     padding: 1.5rem 1rem;
+    display: none;
   }
+
   nav ul {
     position: fixed;
     background-color: var(--bg-color);
