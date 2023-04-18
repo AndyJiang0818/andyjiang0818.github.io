@@ -21,19 +21,29 @@
 <body>
     <!-- Navbar -->
     <nav>
-        <h1>Xihao (Andy) Jiang</h1>
+        <h1>
+            <a href="" class="nav-link">Xihao (Andy) Jiang</a>
+        </h1>
+
         <ul class="navigation">
             <li><a href="#about" class="nav-link">About Me</a></li>
             <li><a href="#skills" class="nav-link">Skills</a></li>
             <li><a href="#experience" class="nav-link">Experience</a></li>
             <li><a href="#projects" class="nav-link">Projects</a></li>
             <li><a href="#certificates" class="nav-link">Certifications</a></li>
-            <li><a href="#more" class="nav-link">More About Me</a></li>
         </ul>
         <button class="burger-menu" id="burger-menu">
             <ion-icon class="bars" name="menu-outline"></ion-icon>
         </button>
     </nav>
+
+    <!-- Slogan Section -->
+    <div class="blockquote-wrapper">
+        <div class="blockquote">
+          <h1>STAY CURIOUS AND ALWAYS EXPLORING</h1>
+          <h4><b>- Andy Jiang</b></h4>
+        </div>
+      </div>
 
     <!-- Hero Section -->
     <section class="hero" id="about">
@@ -44,25 +54,19 @@
                 - <i>Name:</i> Xihao (Andy) Jiang
             </p>
             <p class="bio-text">
-                - <i>School:</i> Hunter College, City University of New York
+                - <i>Occupation:</i> Benefits Coordinator/IT Support
             </p>
             <p class="bio-text">
-                - <i>Major:</i> Computer Science (Bachelor of Arts Degree)
+                - <i>Bio:</i> I dream of becoming an influencer in world history and global politics fields. 
             </p>
             <p class="bio-text">
-                - <i>Minor:</i> Mathematics
-            </p>
-            <p class="bio-text">
-                - <i>Graduation Date:</i> December 2021
+                - <i>Degree:</i> B.A. in Computer Science, Minor in Mathematics (CUNY Hunter College, December 2021)
             </p>
             <p class="bio-text">
                 - <i>Languages:</i> Mandarin (Native), English (Proficient), Cantonese (Intermediate)
             </p>
             <p class="bio-text">
-                - <i>Lives in:</i> Harrison, NJ (Within NYC Metro)
-            </p>
-            <p class="bio-text">
-                - <i>U.S. Work Authorization:</i> STEM OPT (Valid Through February 2025)
+                - <i>Reside:</i> New York City Metropolitan Area
             </p>
             <p class="bio-text">
                 - <i>Email:</i> AndyJobs0818@gmail.com
@@ -72,7 +76,7 @@
 
     <!-- Skills section -->
     <section class="skills" id="skills">
-        <h2 class="skill-header">IT</h2>
+        <h2 class="skill-header">Information Technology</h2>
         <div class="skills-wrapper">
             <div class="first-set animate__animated animate__pulse">
                 <img src="images/PowerShell.svg" alt="" loading="lazy" class="icon icon-card" />
@@ -86,7 +90,7 @@
             </div>
         </div>
 
-        <h2 class="skill-header">Programming</h2>
+        <h2 class="skill-header">Computer Science</h2>
         <div class="skills-wrapper">
             <img src="images/html5.svg" alt="" loading="lazy" class="icon icon-card" />
             <img src="images/css3.svg" alt="" loading="lazy" class="icon icon-card" />
@@ -132,7 +136,7 @@
                     📍 <i>Flushing, NY</i> 📍
                 </p>
                 <p class="experience-position">
-                    🌎 <i>Benefits Coordinator/IT Support</i> 🌎
+                    🌎 <i></i> 🌎
                 </p>
                 <p class="experience-date">
                     📅 <i>March 2023 - Present</i> 📅
@@ -313,10 +317,11 @@
                 <img src="images/tubetube.png" alt="tubetube" loading="lazy" class="project-pic" />
                 <h3 class="project-title">YouTube Clone</h3>
                 <p class="project-details">
-                    Implemented a YouTube Clone using Material UI, React, Redux, and RapidAPI.
+                    Implemented a YouTube Clone using Material UI, React, Redux, and RapidAPI (YouTube v3).
                 </p>
-                <a href="https://unrivaled-pegasus-62f076.netlify.app/" target="_blank" class="project-link">Check it
-                    out</a>
+                <a href="https://unrivaled-pegasus-62f076.netlify.app/" target="_blank" class="project-link">
+                    <b>Check it out</b>
+                </a>
             </div>
 
             <div class="project-container project-card">
@@ -325,8 +330,9 @@
                 <p class="project-details">
                     Implemented a TikTok Clone using Tailwind, React, Next, TypeScript, and Sanity.
                 </p>
-                <a href="https://tik-tok-clone-two.vercel.app/" target="_blank" class="project-link">Check it
-                    out</a>
+                <a href="https://tik-tok-clone-two.vercel.app/" target="_blank" class="project-link">
+                    <b>Check it out</b>
+                </a>
             </div>
 
             <div class="project-container project-card">
@@ -335,7 +341,9 @@
                 <p class="project-details">
                     Implemented a Resident web application using Node, Express, Bootstrap, Nodemailer, OAuth 2, and MongoDB.
                 </p>
-                <a href="https://dailytenant.herokuapp.com/" target="_blank" class="project-link">Check it out</a>
+                <a href="https://dailytenant.herokuapp.com/" target="_blank" class="project-link">
+                    <b>Check it out</b>
+                </a>
             </div>
         </div>
     </section>
@@ -344,17 +352,18 @@
     <section class="certificates" id="certificates">
         <h2 class="certificates-header">Certifications</h2>
         <div class="certificates-container">
-            <div class="certificate-container certificate-card">
+            <div class="certificate-container project-card">
                 <img src="images/Google_IT_Support.png" alt="Google IT Support" loading="cert" class="certificate-pic">
                 <h3 class="certificate-title">Google IT Support Professional Certificate</h3>
                 <p class="certificate-details">
                     Earned in April 2023
                 </p>
                 <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/9P6R3PQAQXSH"
-                    target="certificate" class="certificate-link">Check it out</a>
+                    target="certificate" class="certificate-link"><b>Check it out</b>
+                </a>
             </div>
 
-            <div class="certificate-container certificate-card">
+            <div class="certificate-container project-card">
                 <img src="images/Google_Digital_Marketing.png" alt="Google Digital Marketing & E-commerce"
                     loading="cert" class="certificate-pic">
                 <h3 class="certificate-title">Google Digital Marketing & E-commerce Professional Certificate</h3>
@@ -362,69 +371,21 @@
                     Earned in February 2023
                 </p>
                 <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/6W995D538U9H"
-                    target="certificate" class="certificate-link">Check it out</a>
+                    target="certificate" class="certificate-link"><b>Check it out</b>
+                </a>
             </div>
 
-            <div class="certificate-container certificate-card">
+            <div class="certificate-container project-card">
                 <img src="images/android-dev.png" alt="Android Development" loading="cert" class="certificate-pic">
                 <h3 class="certificate-title">CodePath Android Development Certificate</h3>
                 <p class="certificate-details">
                     Earned in December 2021
                 </p>
                 <a href="https://drive.google.com/file/d/1ipLsvczcXCl3BxEnmuUk8KNklMJAvfbO/view" target="certificate"
-                    class="certificate-link">Check it out</a>
+                    class="certificate-link"><b>Check it out</b>
+                </a>
             </div>
         </div>
-    </section>
-
-    <!-- More about me section -->
-    <section class="more-about" id="more">
-        <h2>More About Me</h2>
-        <p>
-            I am an international student from Harbin, China. I came to the U.S. when I was 15-year-old (9th grade). I
-            went to high school in Vacaville, California, and decided to go to college in New York City because
-            "anything is possible in New York".
-
-            I found out my interest in the computer science field during my junior year in high school. I am curious
-            about the outside world and willing to learn new things. Technologies have made my life rich and colorful.
-            Therefore, I want to explore more in the technology field to make our lives more fulfilling.
-        </p>
-        <p>
-            I went to New York Institute of Technology - Manhattan Campus (NYIT) as a computer science major at first
-            from September 2018 to December 2019, and received the Steele Scholarships.
-
-            However, I was not happy and did not enjoy my college life at NYIT. Therefore, I transferred to CUNY Hunter
-            College on January 2020 and continued studying in the computer science field.
-        </p>
-        <p>
-            I have taken Data Structures, Algorithms, Operating Systems, Symbolic Logic, Computer Theory, Computer
-            Architecture, Distributed Systems, Relational Databases, Big Data, Graph Theory, Statistics, Calculus III,
-            Matrix Algebra, Differential Equations, Linear Algebra, and Vector Calculus.
-        </p>
-        <p>
-            I joined the Chinese Students and Scholars Association at Hunter College (CSSA) as the Director of the Event
-            Planning Team from August 2020 to present. My job duties are responsible for copywriting planning, hosting
-            meetings with the whole event planning team, and cooperating with the CSSA at other schools for big events.
-
-            Also, I joined the Google Developer Student Club at Hunter College (DSC) as a member from March 2021 to
-            present.
-        </p>
-        <p>
-            I have two big hobbies. The first one is cycling. I bought the Citi Bike Annually Membership because I am
-            riding bikes pretty much every weekend unless the weather is terrible.
-
-            My other hobby is playing League of Legends. Maybe I should say watching professional league of legends
-            matches. Playing League takes a lot of my free time, but I do not have that much time right now, so I
-            decided to watch the matches instead of playing it. My favorite team is RNG (Royal Never Give Up) from the
-            LPL (League of Legends Pro League) Region.
-        </p>
-        <p>
-            I have to work at a company that accepts Optional Practical Training (OPT), and I do NOT need sponsorship
-            for a work visa (H1B) in the future because I'm working on something else to get my permanent residency.
-        </p>
-        <p>
-            Free free to contact me by email at "AndyJobs0818@gmail.com".
-        </p>
     </section>
 
     <!-- Social accounts - Fixed to the right -->
