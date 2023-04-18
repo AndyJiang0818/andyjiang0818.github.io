@@ -254,8 +254,8 @@ nav ul li {
 }
 
 .certificate-pic {
-  width: 65%;
-  height: 60%;
+  width: 20rem;
+  height: 14rem;
 }
 
 .certificates-container {
@@ -415,16 +415,20 @@ nav ul li {
     height: 5.25rem;
   }
 
+  .experience-relevant-details {
+    flex-direction: column;
+  }
+
   .projects-container {
+    flex-direction: column;
+  }
+
+  .certificates-container {
     flex-direction: column;
   }
 
   .project-container {
     width: 20.875rem;
-  }
-
-  .contact-form-container {
-    max-width: 23.75rem;
   }
 }
 
