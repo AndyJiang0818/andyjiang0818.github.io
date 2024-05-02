@@ -202,33 +202,10 @@ nav ul li {
 }
 /* Hero section ends */
 
-/* Skills section */
-.skills {
-  text-align: center;
-
-  background-color: var(--bg-color);
-  padding: 32px 0;
-  margin-top: 1rem;
-}
-
-.skill-header {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
-.skills-wrapper img {
-  padding: 0.5rem;
-}
-
-.icon {
-  width: 6rem;
-  height: 6rem;
-}
-/* Skills section ends */
-
 /* Experience section */
-
 .experience {
+  /* background-color: var(--bg-color); */
+
   padding: 32px 0;
 }
 
@@ -277,49 +254,50 @@ nav ul li {
 }
 /* Experience section ends*/
 
-/* Projects section */
-.projects {
-  background-color: var(--bg-color);
+/* Education section */
+.education {
   padding: 32px 0;
 }
 
-.project-pic {
+.edu-pic {
   width: 15rem;
   height: 10rem;
 }
 
-.projects-container {
+.education-container {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.projects-title {
+.education-header {
   text-align: center;
   margin-bottom: 1rem;
 }
 
-.project-container {
+.edu-container {
   text-align: center;
   width: 21.875rem;
   padding: 1rem;
 }
 
-.project-container p {
+.edu-container p {
   padding: 0.4rem;
 }
 
-.project-title {
+.edu-title {
   margin-bottom: var(--bottom-margin);
 }
 
-.project-details {
+.edu-details {
   margin-bottom: var(--bottom-margin);
 }
-/* Projects section ends */
+/* Education section ends */
 
 /* Certificates section */
 .certificates {
+  /* background-color: var(--bg-color); */
+
   padding: 32px 0;
 }
 
@@ -357,6 +335,70 @@ nav ul li {
   margin-bottom: var(--bottom-margin);
 }
 /* Certificates section ends */
+
+/* Skills section */
+.skills {
+  text-align: center;
+
+  padding: 32px 0;
+  margin-top: 1rem;
+}
+
+.skill-header {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.skills-wrapper img {
+  padding: 0.5rem;
+}
+
+.icon {
+  width: 6rem;
+  height: 6rem;
+}
+/* Skills section ends */
+
+/* Projects section */
+.projects {
+  /* background-color: var(--bg-color); */
+  padding: 32px 0;
+}
+
+.project-pic {
+  width: 15rem;
+  height: 10rem;
+}
+
+.projects-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects-title {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.project-container {
+  text-align: center;
+  width: 21.875rem;
+  padding: 1rem;
+}
+
+.project-container p {
+  padding: 0.4rem;
+}
+
+.project-title {
+  margin-bottom: var(--bottom-margin);
+}
+
+.project-details {
+  margin-bottom: var(--bottom-margin);
+}
+/* Projects section ends */
 
 /* Social buttons */
 .socials {
@@ -465,6 +507,10 @@ nav ul li {
   }
 
   .certificates-container {
+    flex-direction: column;
+  }
+
+  .education-container {
     flex-direction: column;
   }
 
