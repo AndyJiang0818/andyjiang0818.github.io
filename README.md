@@ -1,8 +1,18 @@
-# My Portfolio
+# 📄 My Portfolio Website
 
-## Overview
-1. My personal website shows my highlighted skills, projects, certifications, background, and other personal information in detail. 
-2. Let's the user goes to the specific section he/she wants to look at by clicking the 6 navbars on top of the page. 
-3. Check out my Twitter, LinkedIn, and Github links by clicking the icon on the right side of the page. 
-4. Easily go back to the top of the page by clicking the "upward" icon on the bottom right of the page. 
-5. Constantly updating the newest accomplishments, such as skills, experience, projects, and certifications.
+Welcome to my portfolio website repository! This project showcases my work, skills, and experience in a user-friendly, responsive format. Built with modern web development practices, this website serves as my digital resume and portfolio for potential clients, collaborators, and employers.
+
+## 🎯 Purpose
+
+The purpose of this portfolio website is to provide an engaging, professional overview of my personal and professional journey, including:
+
+- **About Me** section with a biography and contact details
+- **Experience, Education, and Certifications** sections for background information
+- **Skills & Services** list to highlight my core competencies
+- **Projects** gallery showcasing my top projects and contributions
+
+## 🛠️ Built With
+
+- **HTML5:** Structure and layout
+- **CSS3:** Styling and responsive design
+- **JavaScript:** Interactivity and animations

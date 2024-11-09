@@ -181,8 +181,14 @@ nav ul li {
 }
 
 .hero img {
-  height: 37.5rem;
-  width: 37.5rem;
+  /* height: 37.5rem;
+  width: 37.5rem; */
+  display: block;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin: 0 auto 1em auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .bio {
@@ -199,6 +205,118 @@ nav ul li {
 .bio p {
   line-height: var(--line-height);
   padding: 0.3rem 0;
+}
+
+/* Container styling */
+.bio-container {
+  background-color: #ffffff; /* White container on blue background */
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 2em auto;
+  padding: 2em;
+  font-family: 'Arial', sans-serif;
+  color: #1a1a1a;
+  line-height: 1.6;
+  text-align: center;
+}
+
+/* Avatar and title section styling */
+.avatar-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1.5em;
+}
+
+.avatar-img {
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 0.5em;
+  border: 3px solid #ffd700; /* Gold border for avatar */
+}
+
+.bio-title {
+  font-size: 2em;
+  font-weight: bold;
+  color: #000000; /* Black for a bold title contrast */
+  margin: 0;
+}
+
+.bio-subtitle {
+  font-size: 1.1em;
+  color: #b8860b; /* Gold for subtitle */
+  margin: 0.5em 0;
+}
+
+/* Card styling for each section */
+.bio-card {
+  background-color: #f8f8f8; /* Very light gray for subtle contrast within white container */
+  border-radius: 10px;
+  padding: 1.5em;
+  margin: 1em 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  text-align: left;
+}
+
+/* Section headings */
+.bio-heading {
+  font-size: 1.3em;
+  color: #000000; /* Black for strong contrast */
+  margin-top: 0;
+  margin-bottom: 0.8em;
+  font-weight: bold;
+}
+
+/* Paragraph text styling */
+.bio-text {
+  font-size: 1em;
+  color: #333333; /* Dark gray for readability */
+  margin-bottom: 1em;
+}
+
+/* List styling for services */
+.bio-list {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0;
+  margin: 0;
+}
+
+.bio-list li {
+  margin-bottom: 0.5em;
+  text-align: center; /* Center-align each list item */
+  background-color: #f0e68c;
+  padding: 0.5em;
+  border-radius: 8px;
+  display: inline-block;
+  width: auto;
+}
+
+/* Contact email link styling */
+.bio-email {
+  color: #b8860b; /* Gold for email link */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.bio-email:hover {
+  text-decoration: underline;
+  color: #ffd700; /* Brighter gold on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .bio-container {
+      padding: 1.2em;
+  }
+  .avatar-img {
+      width: 80px;
+  }
+  .bio-card {
+      padding: 1.2em;
+  }
 }
 /* Hero section ends */
 
@@ -255,41 +373,43 @@ nav ul li {
 /* Experience section ends*/
 
 /* Education section */
-.education {
+.educations {
+  /* background-color: var(--bg-color); */
+
   padding: 32px 0;
 }
 
-.edu-pic {
+.education-pic {
   width: 15rem;
   height: 10rem;
 }
 
-.education-container {
+.educations-container {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.education-header {
+.educations-header {
   text-align: center;
   margin-bottom: 1rem;
 }
 
-.edu-container {
+.education-container {
   text-align: center;
   width: 21.875rem;
   padding: 1rem;
 }
 
-.edu-container p {
+.education-container p {
   padding: 0.4rem;
 }
 
-.edu-title {
+.education-title {
   margin-bottom: var(--bottom-margin);
 }
 
-.edu-details {
+.education-details {
   margin-bottom: var(--bottom-margin);
 }
 /* Education section ends */
