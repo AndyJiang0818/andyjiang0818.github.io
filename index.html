@@ -20,10 +20,14 @@
 
 <body>
     <!-- Navbar -->
-    <nav>
+    <nav class="navbar">
         <h1>
             <a href="" class="nav-link">Xihao (Andy) Jiang</a>
         </h1>
+
+        <button class="burger-menu" id="burger-menu">
+            <ion-icon class="bars" name="menu-outline"></ion-icon>
+        </button>
 
         <ul class="navigation">
             <li><a href="#about" class="nav-link">About Me</a></li>
@@ -33,16 +37,13 @@
             <li><a href="#skills" class="nav-link">Skills</a></li>
             <li><a href="#projects" class="nav-link">Projects</a></li>
         </ul>
-        <button class="burger-menu" id="burger-menu">
-            <ion-icon class="bars" name="menu-outline"></ion-icon>
-        </button>
     </nav>
 
     <!-- Slogan Section -->
     <div class="blockquote-wrapper">
         <div class="blockquote">
             <h1>STAY CURIOUS AND ALWAYS EXPLORING</h1>
-            <h4><b>- Andy Jiang</b></h4>
+            <h4><b>----- Andy Jiang</b></h4>
         </div>
     </div>
 
@@ -50,7 +51,7 @@
     <section class="hero" id="about">
         <div class="bio-container animate__animated animate__fadeIn project-card">
             <div class="avatar-section">
-                <img src="images/Avatar.png" alt="Xihao (Andy) Jiang Avatar" loading="lazy" class="avatar-img" />
+                <img src="images/Avatar.png" alt="Xihao (Andy) Jiang" loading="lazy" class="avatar-img" />
                 <h2 class="bio-title">Xihao (Andy) Jiang</h2>
                 <p class="bio-subtitle">
                     <strong>Customer Support Associate at Momentive Software | Aspiring Influencer in History & Global
@@ -361,13 +362,13 @@
     </section>
 
     <!-- Education section -->
-    <section class="educations" id="educations">
-        <h2 class="educations-header">Education</h2>
-        <div class="educations-container">
-            <div class="education-container project-card">
-                <img src="images/IIT.png" alt="Master's Degree" loading="lazy" class="education-pic">
-                <h3 class="education-title">Illinois Institute of Technology</h3>
-                <p class="education-details">
+    <section class="education" id="education">
+        <h2 class="education-header">Education</h2>
+        <div class="education-container">
+            <div class="edu-container project-card">
+                <img src="images/IIT.png" alt="Master's Degree" loading="lazy" class="edu-pic">
+                <h3 class="edu-title">Illinois Institute of Technology</h3>
+                <p class="edu-details">
                     <i>Master of Applied Science in Information Technology</i>
                     <br>
                     <br>
@@ -377,17 +378,17 @@
                 </a>
             </div>
 
-            <div class="education-container project-card">
-                <img src="images/Bachelor.png" alt="Bachelor's Degree" loading="lazy" class="education-pic">
-                <h3 class="education-title">CUNY Hunter College</h3>
-                <p class="education-details">
+            <div class="edu-container project-card">
+                <img src="images/Bachelor.png" alt="Bachelor's Degree" loading="lazy" class="edu-pic">
+                <h3 class="edu-title">CUNY Hunter College</h3>
+                <p class="edu-details">
                     <i>Bachelor of Arts in Computer Science, Minor in Mathematics</i>
                     <br>
                     <br>
                     Graduated in December 2021
                 </p>
-                <a href="https://www.parchment.com/u/award/e13db93a92cf515b743ebd3c3ae809d0" target="education"
-                    class="education-link"><b>Check it out</b>
+                <a href="https://www.parchment.com/u/award/e13db93a92cf515b743ebd3c3ae809d0" target="edu"
+                    class="edu-link"><b>Check it out</b>
                 </a>
             </div>
         </div>
@@ -559,8 +560,6 @@
             </div>
         </div>
     </section>
-
-
 
     <!-- Social accounts - Fixed to the right -->
     <div class="socials">

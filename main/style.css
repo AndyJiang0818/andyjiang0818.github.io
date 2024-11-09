@@ -75,12 +75,13 @@ body {
     color: #ffffff;
     padding: 30px 0;
     width: 100%;
-    max-width: 500px;
+    max-width: 800px;
     z-index: 1;
     margin: 80px auto;
     align-self: center;
     border-top: solid 1px;
     border-bottom: solid 1px;
+    text-align: center;
 }
 
 /* Blockquote header */
@@ -91,6 +92,10 @@ body {
     font-weight: 800;
     line-height: 1;
     margin: 0;
+}
+
+.blockquote h4 {
+  text-align: right;
 }
 
 /* Blockquote right double quotes */
@@ -209,12 +214,7 @@ nav ul li {
 
 /* Container styling */
 .bio-container {
-  background-color: #ffffff; /* White container on blue background */
-  border-radius: 15px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-  max-width: 800px;
-  margin: 2em auto;
-  padding: 2em;
+  max-width: 81.5%;
   font-family: 'Arial', sans-serif;
   color: #1a1a1a;
   line-height: 1.6;
@@ -235,7 +235,8 @@ nav ul li {
   border-radius: 50%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   margin-bottom: 0.5em;
-  border: 3px solid #ffd700; /* Gold border for avatar */
+  border: 3px solid #ffd700;
+  object-fit: cover;
 }
 
 .bio-title {
@@ -305,19 +306,6 @@ nav ul li {
   text-decoration: underline;
   color: #ffd700; /* Brighter gold on hover */
 }
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
-  .bio-container {
-      padding: 1.2em;
-  }
-  .avatar-img {
-      width: 80px;
-  }
-  .bio-card {
-      padding: 1.2em;
-  }
-}
 /* Hero section ends */
 
 /* Experience section */
@@ -373,43 +361,41 @@ nav ul li {
 /* Experience section ends*/
 
 /* Education section */
-.educations {
-  /* background-color: var(--bg-color); */
-
+.education {
   padding: 32px 0;
 }
 
-.education-pic {
+.edu-pic {
   width: 15rem;
   height: 10rem;
 }
 
-.educations-container {
+.education-container {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.educations-header {
+.education-header {
   text-align: center;
   margin-bottom: 1rem;
 }
 
-.education-container {
+.edu-container {
   text-align: center;
   width: 21.875rem;
   padding: 1rem;
 }
 
-.education-container p {
+.edu-container p {
   padding: 0.4rem;
 }
 
-.education-title {
+.edu-title {
   margin-bottom: var(--bottom-margin);
 }
 
-.education-details {
+.edu-details {
   margin-bottom: var(--bottom-margin);
 }
 /* Education section ends */
@@ -634,8 +620,15 @@ nav ul li {
     flex-direction: column;
   }
 
-  .project-container {
-    width: 20.875rem;
+  .bio-container {
+    padding: 1.2em;
+  }
+  .avatar-img {
+      max-width: 100px;
+      max-height: 100px;
+  }
+  .bio-card {
+      padding: 1.2em;
   }
 }
 
@@ -647,13 +640,5 @@ nav ul li {
 
   .bio {
     width: 18.3rem;
-  }
-
-  .project-container {
-    width: 17.875rem;
-  }
-
-  .contact-form-container {
-    max-width: 17.75rem;
   }
 }
