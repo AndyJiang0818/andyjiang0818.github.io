@@ -1,6 +1,6 @@
 # 📄 My Portfolio Website
 
-Welcome to my portfolio website repository! This project showcases my work, skills, and experience in a user-friendly, responsive format. Built with modern web development practices, this website serves as my digital resume and portfolio for potential clients, collaborators, and employers.
+Welcome to [my portfolio website](https://andyjiang0818.github.io/) repository! This project showcases my work, skills, and experience in a user-friendly, responsive format. Built with modern web development practices, this website serves as my digital resume and portfolio for potential clients, collaborators, and employers.
 
 ## 🎯 Purpose
 
